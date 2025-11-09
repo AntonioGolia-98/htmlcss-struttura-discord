@@ -4,27 +4,43 @@
     box-sizing: border-box;
 }
 
-header{
+
+.bg-acquamarine{
     height: 50px;
     background-color: aquamarine;
-    padding: 0.5rem 8rem;
-   
-}
-
-header nav ul {
-    display:flex;
-    list-style-type: none;
-    gap: 1rem;
-    justify-content: center;
+    padding: 0.5rem 8rem;  
 }
 
 .menu{
-    border: 1px dotted black;
-    background-color: orange;
-    padding: 0.3rem;
+    display: flex;
 }
 
-.menu-1{
+.menu-logo{
+    border: 1px dotted black;
+    background-color: orange;
+    width:200px;
+    padding: 0.4rem;
+}
+
+.menu-link{
+    border: 1px dotted black;
+    background-color: orange;
+    width: 400px;
+    list-style-type: none;
+    justify-content: center;
+    gap: 1rem ;  
+    padding: 0.4rem; 
+}
+
+.menu-login{
+    border: 1px dotted black;
+    background-color: orange;
+    text-align: end;
+    width: 200px;
+    padding: 0.4rem;
+}
+
+.bg-blu{
     height: 400px;
     background-color: blue;
     display: flex;
@@ -32,9 +48,37 @@ header nav ul {
     align-items: center;
 }
 
-.box-type-1{
+.box-violet{
     height: 300px;
     width: 600px;
+    border: 1px dotted black;
+    background-color: violet;
+}
+
+.bg-white{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-grey{
+    height: 400px;
+    display: flex;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-lightblu{
+    height: 300px;
+    width: 500px;
+    border: 1px dotted black;
+    background-color: rgb(173, 191, 230);
+}
+.box-pink{
+    height: 300px;
+    width: 300px;
     border: 1px dotted black;
     background-color: pink;
 }
