@@ -4,28 +4,18 @@
     box-sizing: border-box;
 }
 
-.bg-acquamarine{
-    height: 50px;
-    background-color: aquamarine;
-    padding: 0.5rem 8rem;  
-}
-
-
-.menu{
-    display: flex;
-    justify-content: center;
-}
-
-.menu-logo{
+.box-menu-orange{
     border: 1px dotted black;
     background-color: orange;
+}
+
+
+.menu-logo{
     width:200px;
     padding: 0.4rem;
 }
 
 .menu-link{
-    border: 1px dotted black;
-    background-color: orange;
     width: 400px;
     list-style-type: none;
     justify-content: center;
@@ -34,8 +24,6 @@
 }
 
 .menu-login{
-    border: 1px dotted black;
-    background-color: orange;
     text-align: end;
     width: 200px;
     padding: 0.4rem;
@@ -45,6 +33,19 @@
     padding: 3rem 0;
 }
 
+.padding-t1-b2{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.padding-top2{
+    padding-top: 2rem;
+}
+
+.margin{
+    margin-bottom: 0.2rem;
+}
+
 .bg{
     background-size: cover;
     display: flex;
@@ -52,6 +53,10 @@
     align-items: center;
 }
 
+.bg-acquamarine{
+    background-color: aquamarine;
+    padding: 0.5rem 8rem;  
+}
 .bg-blu{
     background-color: blue;
 }
@@ -61,15 +66,15 @@
 }
 
 .bg-darkgrey{
-    background-color: darkgray;
+    background-color: rgb(90, 86, 86);
 }
 
 .box-b{
-     border: 1px dotted black;
+    border: 1px dotted black;
 }
 
 .box-w{
-     border: 1px dotted white;
+    border: 1px dotted white;
 }
 
 .box-violet{
@@ -108,4 +113,31 @@
     background-color:cyan;
 }
 
+.box-turchese{
+    height: 50px;
+    width: 800px;
+    background-color: turquoise;
+}
+
+.box-footer-salmon{
+    border: 1px dotted black;
+    background-color: salmon;
+}
+
+.logo-end{
+    height: 20px; 
+    width: 50px; 
+    text-align: center;
+}
+
+.button-end{
+    height: 20px;
+    width: 50px;
+}
+
+.space{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
