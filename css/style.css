@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 50px;
+    background-color: aquamarine;
+    padding: 0.5rem 8rem;
+   
+}
+
+header nav ul {
+    display:flex;
+    list-style-type: none;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.menu{
+    border: 1px dotted black;
+    background-color: orange;
+    padding: 0.3rem;
+}
+
+.menu-1{
+    height: 400px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-type-1{
+    height: 300px;
+    width: 600px;
+    border: 1px dotted black;
+    background-color: pink;
+}
