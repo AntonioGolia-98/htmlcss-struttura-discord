@@ -4,15 +4,16 @@
     box-sizing: border-box;
 }
 
-
 .bg-acquamarine{
     height: 50px;
     background-color: aquamarine;
     padding: 0.5rem 8rem;  
 }
 
+
 .menu{
     display: flex;
+    justify-content: center;
 }
 
 .menu-logo{
@@ -40,45 +41,71 @@
     padding: 0.4rem;
 }
 
-.bg-blu{
-    height: 400px;
-    background-color: blue;
+.padding-3{
+    padding: 3rem 0;
+}
+
+.bg{
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.bg-blu{
+    background-color: blue;
+}
+
+.bg-grey{
+    background-color: grey;
+}
+
+.bg-darkgrey{
+    background-color: darkgray;
+}
+
+.box-b{
+     border: 1px dotted black;
+}
+
+.box-w{
+     border: 1px dotted white;
 }
 
 .box-violet{
     height: 300px;
     width: 600px;
-    border: 1px dotted black;
     background-color: violet;
-}
-
-.bg-white{
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.bg-grey{
-    height: 400px;
-    display: flex;
-    background-color: grey;
-    justify-content: center;
-    align-items: center;
 }
 
 .box-lightblu{
     height: 300px;
     width: 500px;
-    border: 1px dotted black;
     background-color: rgb(173, 191, 230);
 }
+
 .box-pink{
     height: 300px;
     width: 300px;
-    border: 1px dotted black;
     background-color: pink;
 }
+
+.box-green{
+    height: 500px;
+    width: 800px;
+    background-color: green;
+}
+
+.box-salmon{
+    height: 300px;
+    width: 266px;
+    background-color: salmon;
+}
+
+.box-ciano{
+    height: 300px;
+    width: 133px;
+    background-color:cyan;
+}
+
+
